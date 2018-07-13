@@ -10,12 +10,12 @@ myImage.onclick = function() {
     }
 }
 
-var myButton = document.querySelector('buton');
+var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 
 function setUserName() {
     var myName = prompt('name', myName);
-    myHeading.textContent = 'Toads rules, ' + myName;
+    myHeading.textContent = 'Toads rule, ' + myName;
 }
 
 if(!localStorage.getItem('name')) {
