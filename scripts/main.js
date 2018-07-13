@@ -15,7 +15,7 @@ var myHeading = document.querySelector('h1');
 
 function setUserName() {
     var myName = prompt('name', myName);
-    myHeading.textContent = 'Toads rule, ' + myName;
+    myHeading.textContent = 'Hello my fellow toad, ' + myName;
 }
 
 if(!localStorage.getItem('name')) {
